@@ -22,5 +22,5 @@ def get_phrases(name):
     #name=search_wikipedia(name)[0]
     text= summarize_wikipedia(name) 
     blob=get_text_blob(text)  
-    phrases=blob.sentences
+    phrases=blob.noun_phrases
     return phrases

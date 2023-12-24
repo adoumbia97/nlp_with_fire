@@ -2,3 +2,6 @@ textblob
 wikipedia
 ipython
 pylint
+fire
+pytest
+black
